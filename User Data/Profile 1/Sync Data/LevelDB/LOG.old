@@ -1,0 +1,6 @@
+2024/06/29-10:49:33.843 cb8 Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Profile 1\Sync Data\LevelDB/MANIFEST-000001
+2024/06/29-10:49:33.844 cb8 Recovering log #4
+2024/06/29-10:49:33.848 cb8 Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Profile 1\Sync Data\LevelDB/000004.log 
+2024/06/29-10:50:24.106 12bc Level-0 table #8: started
+2024/06/29-10:50:24.120 12bc Level-0 table #8: 84303 bytes OK
+2024/06/29-10:50:24.122 12bc Delete type=0 #4

@@ -1,0 +1,6 @@
+2025/03/27-18:57:48.927 6f54 Creating DB C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_app.grammarly.com_0.indexeddb.leveldb since it was missing.
+2025/03/27-18:57:48.935 6f54 Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_app.grammarly.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/27-18:57:50.959 6e44 Level-0 table #5: started
+2025/03/27-18:57:50.963 6e44 Level-0 table #5: 433 bytes OK
+2025/03/27-18:57:50.965 6e44 Delete type=0 #3
+2025/03/27-18:57:50.966 6e44 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

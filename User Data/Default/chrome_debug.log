@@ -1,0 +1,20 @@
+[24064:20564:0329/172110.211:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[21832:27924:0329/172110.355:INFO:cpu_info.cc(53)] Available number of cores: 12
+[4764:10484:0329/172110.368:INFO:cpu_info.cc(53)] Available number of cores: 12
+[5176:1384:0329/172110.413:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[2128:12396:0329/172110.663:INFO:cpu_info.cc(53)] Available number of cores: 12
+[18596:15452:0329/172111.080:INFO:cpu_info.cc(53)] Available number of cores: 12
+[24064:20564:0329/172112.837:INFO:CONSOLE(14)] "2025-03-29T11:51:12.837Z:Property:The state with a data type: unknown does not match a schema", source: https://static.tradingview.com/static/bundles/64817.eab0eb66aa4e5096ff0b.js (14)
+[24064:20564:0329/172113.896:INFO:CONSOLE(0)] "ResizeObserver loop completed with undelivered notifications.", source: https://in.tradingview.com/chart/5v4YSg67/?symbol=NSE%3A360ONE (0)
+[18848:15236:0329/172114.220:INFO:cpu_info.cc(53)] Available number of cores: 12
+[24064:20564:0329/172114.866:INFO:CONSOLE(72)] "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment", source: https://accounts.google.com/gsi/client (72)
+[24064:20564:0329/172114.870:INFO:CONSOLE(0)] "Not signed in with the identity provider.", source: https://in.tradingview.com/chart/5v4YSg67/?symbol=NSE%3A360ONE (0)
+[24064:20564:0329/172114.890:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://in.tradingview.com/chart/5v4YSg67/?symbol=NSE%3A360ONE (0)
+[24064:20564:0329/172121.336:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:5157
+[24064:20564:0329/172121.453:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:265059
+[24064:20564:0329/172122.494:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:883094
+[24064:20564:0329/172122.967:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2200227
+[24064:20564:0329/172123.164:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:45165
+[24064:20564:0329/172123.811:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 1, file size:0
+[18916:31504:0329/172123.837:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[18916:31504:0329/172123.837:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.

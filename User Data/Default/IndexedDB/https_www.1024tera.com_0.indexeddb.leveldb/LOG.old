@@ -1,0 +1,8 @@
+2025/03/22-00:08:22.131 89c Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.1024tera.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/22-00:08:22.132 89c Recovering log #4
+2025/03/22-00:08:22.134 89c Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.1024tera.com_0.indexeddb.leveldb/000004.log 
+2025/03/22-00:08:22.142 1470 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/22-00:08:32.520 7628 Level-0 table #8: started
+2025/03/22-00:08:32.526 7628 Level-0 table #8: 16523 bytes OK
+2025/03/22-00:08:32.530 7628 Delete type=0 #4
+2025/03/22-00:08:32.532 3c44 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

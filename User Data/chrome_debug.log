@@ -1,0 +1,8 @@
+[8548:13588:0329/172705.899:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[6620:30136:0329/172706.137:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[15284:27720:0329/172706.176:INFO:cpu_info.cc(53)] Available number of cores: 12
+[27772:10032:0329/172706.240:INFO:cpu_info.cc(53)] Available number of cores: 12
+[8548:13588:0329/172706.286:WARNING:untrusted_source.cc(320)] URL is not allowed.
+[1732:28564:0329/172706.369:INFO:cpu_info.cc(53)] Available number of cores: 12
+[18124:11676:0329/172706.545:INFO:cpu_info.cc(53)] Available number of cores: 12
+[8548:13588:0329/172707.181:INFO:CONSOLE(14)] "2025-03-29T11:57:07.181Z:Property:The state with a data type: unknown does not match a schema", source: https://static.tradingview.com/static/bundles/64817.eab0eb66aa4e5096ff0b.js (14)

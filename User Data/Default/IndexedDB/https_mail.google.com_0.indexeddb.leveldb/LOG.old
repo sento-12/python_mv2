@@ -1,0 +1,9 @@
+2025/03/27-18:59:37.326 33a0 Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/27-18:59:37.328 33a0 Recovering log #7
+2025/03/27-18:59:37.332 33a0 Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2025/03/27-18:59:39.512 6f54 Compacting 1@1 + 1@2 files
+2025/03/27-18:59:39.538 6f54 Generated table #10@1: 211 keys, 679066 bytes
+2025/03/27-18:59:39.538 6f54 Compacted 1@1 + 1@2 files => 679066 bytes
+2025/03/27-18:59:39.540 6f54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/27-18:59:39.541 6f54 Delete type=2 #5
+2025/03/27-18:59:39.542 6f54 Delete type=2 #8

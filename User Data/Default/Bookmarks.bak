@@ -1,0 +1,422 @@
+{
+   "checksum": "f582da51dcb36edb29fef9a98166f644",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13339985204409553",
+            "date_last_used": "13387456478243914",
+            "guid": "35b6fcfe-b38f-4562-8125-e5c2abb205a6",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13339985204410479",
+            "date_last_used": "13356721575307910",
+            "guid": "690cc3a3-b41d-4a72-8312-e5e45a9be1b3",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13339985204410834",
+            "date_last_used": "13354042152795022",
+            "guid": "be6bf607-3831-48ee-954d-42cf568be825",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         } ],
+         "date_added": "13339985191261496",
+         "date_last_used": "0",
+         "date_modified": "13339985204410834",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13352646872955346",
+            "date_last_used": "13368005930916241",
+            "guid": "b4b1a19a-350b-4f7e-bc08-6af947b305d0",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Sigma-Web-Dev-Course/Video 99 at main · CodeWithHarry/Sigma-Web-Dev-Course",
+            "type": "url",
+            "url": "https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%2099"
+         }, {
+            "date_added": "13352646958567699",
+            "date_last_used": "13384860945901969",
+            "guid": "ea078940-06fa-40ad-8bc2-de62bac689db",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Using EJS with Express · mde/ejs Wiki",
+            "type": "url",
+            "url": "https://github.com/mde/ejs/wiki/Using-EJS-with-Express"
+         }, {
+            "date_added": "13355380153726710",
+            "date_last_used": "13364141561976913",
+            "guid": "ff2db0a8-fc58-4bc7-a620-d6f9a4eab5b5",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Chat Blackbox: AI Code Generation, Code Chat, Code Search - Blackbox",
+            "type": "url",
+            "url": "https://www.blackbox.ai/"
+         }, {
+            "date_added": "13355409426115069",
+            "date_last_used": "13364141630305426",
+            "guid": "1041ae5c-4a27-488e-a126-2b8c36238734",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "react-toastify - npm",
+            "type": "url",
+            "url": "https://www.npmjs.com/package/react-toastify"
+         }, {
+            "date_added": "13355424401635708",
+            "date_last_used": "13360138220461101",
+            "guid": "736f8871-edc1-447c-9e53-6a52bbf3ad23",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mongoose v8.2.2: Documents",
+            "type": "url",
+            "url": "https://mongoosejs.com/docs/documents.html"
+         }, {
+            "date_added": "13355500725611020",
+            "date_last_used": "13364141566811078",
+            "guid": "3d25eb10-bcfd-4390-ac02-36a4877691ff",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mongoose v8.2.2: SchemaTypes",
+            "type": "url",
+            "url": "https://mongoosejs.com/docs/schematypes.html"
+         }, {
+            "date_added": "13355501679683231",
+            "date_last_used": "0",
+            "guid": "74f24886-e119-4e3c-bb9c-83e8d4183ada",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CodeWithHarry/Sigma-Web-Dev-Course: Source Code for Sigma Web Development Course",
+            "type": "url",
+            "url": "https://github.com/CodeWithHarry/Sigma-Web-Dev-Course"
+         }, {
+            "date_added": "13355515512666769",
+            "date_last_used": "0",
+            "guid": "686aa6e0-7851-4521-a209-4be1001fec20",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "React",
+            "type": "url",
+            "url": "https://react.dev/"
+         }, {
+            "date_added": "13355515519669561",
+            "date_last_used": "13364141568833782",
+            "guid": "f6038beb-7cb1-41b0-a64e-5c5828732b58",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Quick Start – React",
+            "type": "url",
+            "url": "https://react.dev/learn"
+         }, {
+            "date_added": "13355941943140437",
+            "date_last_used": "0",
+            "guid": "97c706c2-8abe-4495-98f9-30197c574857",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "React Tutorial",
+            "type": "url",
+            "url": "https://www.w3schools.com/react/default.asp"
+         } ],
+         "date_added": "13339985191261498",
+         "date_last_used": "0",
+         "date_modified": "13355941943140437",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13324375648959892",
+            "date_last_used": "13369394195144558",
+            "guid": "bc00c302-e931-40ab-afb4-cac127b45ddf",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Text to Speech Online: Generate realistic TTS voiceovers | MURF",
+            "type": "url",
+            "url": "https://murf.ai/text-to-speech"
+         }, {
+            "date_added": "13356121402985950",
+            "date_last_used": "13361283565186219",
+            "guid": "b06c665c-f2f1-475b-9391-6985339226c1",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "W3Schools Online Web Tutorials",
+            "type": "url",
+            "url": "https://www.w3schools.com/"
+         }, {
+            "date_added": "13356711789335859",
+            "date_last_used": "13364141573021436",
+            "guid": "522bce2d-66c2-4b51-b5f1-3b0c79742a65",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Font Awesome",
+            "type": "url",
+            "url": "https://fontawesome.com/start/confirm"
+         }, {
+            "date_added": "13360138178480863",
+            "date_last_used": "13360138234243314",
+            "guid": "7b421df9-e96d-4f98-8b1b-437a285694b6",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Flowbite - Tailwind CSS component library",
+            "type": "url",
+            "url": "https://flowbite.com/docs/getting-started/introduction/"
+         }, {
+            "date_added": "13360481496720003",
+            "date_last_used": "13360740795751158",
+            "guid": "e3ba2cdb-5c68-47eb-85e4-b3faa0f56a77",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Communication APIs for SMS, Voice, Email & Authentication | Twilio",
+            "type": "url",
+            "url": "https://www.twilio.com/en-us"
+         }, {
+            "date_added": "13361111690220516",
+            "date_last_used": "0",
+            "guid": "299b8e93-ab9f-4264-90a8-40a11888faa7",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Tailwind CSS Dropdown - Flowbite",
+            "type": "url",
+            "url": "https://flowbite.com/docs/components/dropdowns/"
+         }, {
+            "date_added": "13361283609944325",
+            "date_last_used": "13364141616078139",
+            "guid": "5f3f538c-ac88-4ba9-a2aa-c5c84c027765",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "20,200+ Animated Icons - Lordicon",
+            "type": "url",
+            "url": "https://lordicon.com/"
+         }, {
+            "date_added": "13361524712172358",
+            "date_last_used": "0",
+            "guid": "e9469243-cc5a-4fcc-aac6-490bc91d58c5",
+            "id": "42",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Callbacks | NextAuth.js",
+            "type": "url",
+            "url": "https://next-auth.js.org/configuration/callbacks"
+         }, {
+            "date_added": "13362292829194006",
+            "date_last_used": "13364141607948483",
+            "guid": "d5ebe9ce-8ce9-4add-b1e2-7b82634a6d63",
+            "id": "44",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Easing | GSAP | Docs & Learning",
+            "type": "url",
+            "url": "https://gsap.com/docs/v3/Eases/"
+         }, {
+            "date_added": "13362462129031122",
+            "date_last_used": "13364142993062329",
+            "guid": "ac6bf4e2-3ac1-4f20-8e83-fb6c6f51d382",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Background Color - Tailwind CSS",
+            "type": "url",
+            "url": "https://tailwindcss.com/docs/background-color"
+         }, {
+            "date_added": "13362592755445361",
+            "date_last_used": "13364141581968210",
+            "guid": "0211a2ab-cd75-443e-9177-daea1387d836",
+            "id": "48",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Learn Web Development | ProjectLearn",
+            "type": "url",
+            "url": "https://projectlearn.io/learn/web-development"
+         }, {
+            "date_added": "13363796352368464",
+            "date_last_used": "13364141549392866",
+            "guid": "4b1e7278-2a33-45a8-a718-51ba2df901ae",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "The Position Parameter | GSAP | Docs & Learning",
+            "type": "url",
+            "url": "https://gsap.com/resources/position-parameter/#interactive-demos"
+         }, {
+            "date_added": "13364188237515512",
+            "date_last_used": "0",
+            "guid": "5ad887cc-1782-4a40-8511-c8f851edb90e",
+            "id": "52",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Tailwind CSS Buttons - Flowbite",
+            "type": "url",
+            "url": "https://flowbite.com/docs/components/buttons/"
+         }, {
+            "date_added": "13364710485824431",
+            "date_last_used": "0",
+            "guid": "d0397443-e66e-4c15-af23-4f08937574b2",
+            "id": "54",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Leaflet - a JavaScript library for interactive maps",
+            "type": "url",
+            "url": "https://leafletjs.com/"
+         }, {
+            "date_added": "13366818977521994",
+            "date_last_used": "13369394206659566",
+            "guid": "93556c46-41f9-4c45-8a0b-284002f817f4",
+            "id": "56",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Quick start",
+            "type": "url",
+            "url": "https://scroll.locomotive.ca/docs/#/quickstart"
+         }, {
+            "date_added": "13370445749513564",
+            "date_last_used": "0",
+            "guid": "5aeffbf7-a8a6-439c-98dc-460eb1b10b80",
+            "id": "58",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "PureCode AI - Generate UI Using AI",
+            "type": "url",
+            "url": "https://purecode.ai/"
+         }, {
+            "date_added": "13371373689858676",
+            "date_last_used": "0",
+            "guid": "22e0ee09-83ed-4b83-ae83-e87500637747",
+            "id": "60",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Website Builder - Create a Free Website Today | Wix.com",
+            "type": "url",
+            "url": "https://www.wix.com/"
+         }, {
+            "date_added": "13371538707004303",
+            "date_last_used": "0",
+            "guid": "442df3d8-5cd7-4bd5-967b-f7645a166b4a",
+            "id": "61",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "About Web Modules",
+            "type": "url",
+            "url": "https://dev.wix.com/docs/develop-websites/articles/coding-with-velo/backend-code/web-modules/about-web-modules"
+         }, {
+            "date_added": "13371729998165372",
+            "date_last_used": "0",
+            "guid": "a69fc5fd-2867-4b08-bc85-d9580f79d781",
+            "id": "63",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Wix Studio | My Site 3",
+            "type": "url",
+            "url": "https://editor.wix.com/studio/714aea9a-e758-4ca6-a097-7413da5fb6bd?metaSiteId=4161f8c1-69fe-4516-9279-14ad0d161c02&editorSessionId=205648a9-d5cf-4193-8d7e-1d7ca630eade"
+         }, {
+            "date_added": "13372257752464540",
+            "date_last_used": "0",
+            "guid": "f30e72f4-fc55-4c2a-96fa-98ed1337d34a",
+            "id": "65",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Kafka Crash Course",
+            "type": "url",
+            "url": "https://gist.github.com/piyushgarg-dev/32cadf6420c452b66a9a6d977ade0b01"
+         }, {
+            "date_added": "13373537730433751",
+            "date_last_used": "13373620875933374",
+            "guid": "4a57a32f-1ed5-4b0d-ad75-4315131a8169",
+            "id": "67",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Your work - Jira",
+            "type": "url",
+            "url": "https://sentobirl-1729064025939.atlassian.net/jira/your-work"
+         }, {
+            "date_added": "13387194396688805",
+            "date_last_used": "0",
+            "guid": "c4fdce33-9eb9-4b90-acd2-8433263cb6c8",
+            "id": "69",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Library Genesis",
+            "type": "url",
+            "url": "https://libgen.is/"
+         } ],
+         "date_added": "13339985191261500",
+         "date_last_used": "0",
+         "date_modified": "13387194396688805",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnEKUQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCVlzKX47MQYAEVlzKX47MQYAKR3pK347MQYAKg4QABgAIAAoADAAOABAABIAKhhsdUdsUXg3b2tOSEtYMWYwb3MyRjJRPT1IAxLtAQg/EugBChxqYXJEZFk3ZTlnRG5neHNRVU1hdFhVUjUzNE09EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCswYlpvRDZHM2djcTVYL1Z3Z3BwV3VCSzN0aDNhc2pNSkprMkozWWFWY2NkRmZFZGRORzVHZ3lHSVBUTVJ3bXFMM3I2TGxnPT0YACACKAIwlqzgwePdiAM41ZKExKIyQIKThMSiMkocZ0w4S0Y0VTdyYTd4cVZEcER1bmZLaURDZUU0PVogIh7//3ZNUTRPaEJuSDEwYzVlbmVWSGN6RTZjT29EVT1l2xof4hLtAQg6EugBChw4elFEa1V4dno3T0Y2MWpOeVZucjdQV0craEk9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtqRzlEZGtsaDVWMG5UTXRNWm9VN2ZBUXpkekwxSzAvMERNdXpyd3N0aTVGN0QxaURxWXovMklnV0FpVm1OYXMvZmFFWWZ3PT0YACACKAIw5JXCqbO4iAM4ierT350yQM+P1N+dMkocU09CRFRLQzVKbGFpcTJlUXBaRlBVY2lKVFdBPVogIh7//mlZcS9MQXJ1RTJ4c2ZrZ2Y0MWFHQVkwQThOYz1lnA5mOxLtAQg9EugBChw3eGZKdVBNb3oxL25kNzZRV3RqMGFrSGpFaEE9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCsxY3BoN1Y4TTgyNWVncjN6M05FdTdqcVZldUdWMlhXVzNMZXcxZGs2NG5SeVp4T0ZaWFNjN0pza2ZXYmU2L0VaY053alRRPT0YACACKAIw3K+nqKDYiAM4vNTo6KEyQNLJwemhMkocNElHWloyM1B0MnU0Z0hyWW5Uc085dG5oYk44PVogIh7//2FtTWs0RmNYdDBPbzlxUFErMDlzTWo0dWVCMD1lez6h7RLsAQgqEucBChxiZWJhWWlmVXJrazc5WXNmNFgwL09PT1FEQ0U9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtjNVlGVk13bityb2ZmWDBpTWlDQ1Q1QXMwQkpBUDlVMHdBejlUQ3NDMUV6YnRVd2Jpa0xZNllGVUtKOVZMNjQ5MHo3aWh3PT0YACACKAIwlsTa7eG0hgM47PXiwfwxQIz+4sH8MUocZk4vaHJTZG45eHdFejdZdmVxeDZnZDZJNGxrPVofIh3+UUF3dnFwd09GVjh1c1c2WGFkUFV6K05mY1dnPWXiC+jSEusBCA0S5gEKHE10WEkvRjE5N0ZYZHVPNXhvVm5zUXJ2dlorQT0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K1Z0L2tYRVpiNERzOWl1UDhQcFI1Tm1HTEZnRTRTcXZwaXBMUWtQbWV2Y2dNbmRacTVRenlHTmdWaktaVXlNME5NbVRRQ2c9PRgAIAMoAzDk4YjX4+yIAzjn68O42zFA8KLouaQyShxxYVEvMzN4dkxBS1ZqOG5PL21qSXR4ekNEMGs9Wh4iHG82VlJiZzc1UGtUQ0RqN3drZzQ3c2xLU2ZaTT1lyPM/uxLtAQg8EugBChxlVmROOG8zNkNiOXNUU0pHR1VMTXZtOU9Tcm89EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCt4UnpsRDRQSTcrYnQyLzU1SDdpMGsyLzlrNVdQSW1iSTZ2YU93dHpranpheC8vT25QeURPTGRDY0VrdVVPdUdNR0JPRThnPT0YACADKAMwi/eNrPLTiAM4guiQmqEyQNTSi6KhMkocUnBSMXYwREg2c3k3WWZ2RE9vNWZxSUlYalJ3PVogIh7//zVITXlwUU1wcXhwekt4TVZaTUx4UFhML0lndz1lLF11GBLtAQgyEugBChxkN2QwaWVkOVk0SlU1cCt2ZVQxaEJ1eFpuOE09EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtNWTU0WHNRQ2dVclVFWG1qNTdPUjF3WERhL1FJWmt4T05FVUpiOEZFWU5zTDlCYlI4UTR0ZzF6cWNPbDh3Y3NTeGFMYkhRPT0YACACKAIw89r9r/D2hgM48Or8/IQyQI3r/PyEMkocc1VFM090bkJyRE94MU56K0ZzN1Y1QXM0d3lZPVogIh7/7C9VWU1sSytyOHN2dnZ0TkJYSWh4aUdXZmNwbz1lWWPNjxLrAQgIEuYBChxOVnNWNEZoSDFtVWU0V2gzWE1MVk1vd1NZUEk9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtNZ1RDTFlZS3QwSnNCZGpGZUIxZG9nMGtaaW5jdDdKVlNCRkdpZ0wybjBZNTA1aVBSMytnWDUvYlZlczBUdzNuMXF0R1lnPT0YACABKAEw/4iP6ZbrgwM4wYXcj/IwQMzs6qnSMUoccExHUGMzZnpxc2sxdlJCbnJlNytDVFhxb25zPVoeIhxrL1F3Q1VjTC84SENKc1ZSZGhHOUFnVFp3ejA9ZdxdFzcS7AEIGRLnAQocOWE0MDE1MmlXUTRzZkVaSzVTSi9yM2t3TFdjPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrazQ2UGFJSE5nMlVsZkhJUlNFQnpIS1NkcTZOMVljak5KOWV0SFJwTVlTRkFvbGMzaGRjbW1lWGZOcDhjMUpUb3d1Y2J3dz09GAAgAygDMJOM2+e0jIYDOL71rpDmMUDu3NKs9zFKHFRJUW1NVlB0amVxSjR6MjI0MXpTeUEzWDg1MD1aHyId/jUrS0pBZWpqMkpsbXROaGswWEU5ZHpYMGZGRT1lQwaQLhLsAQgVEucBChxWcG5KSGYxb1RIVDdPYzhKYmk0d1pBSzczbHM9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCszTkZhaCtLU2ZHR2l1ajBIUHl2Y0dnc0creEk3MFYvQkcwcmRkTDBRQVl4dE5aNVVSWlozVDd1cGVyWExINEg3MHlvbkFnPT0YACACKAIwqIjO4biFhQM46/qnieYxQPr6p4nmMUocUkdZNFIvVjRoU2wrc1BkZ0hHZHpPTHhuTmZRPVofIh32b055ZWRzV2kxVmhiUmRIMTdJWU1aZkp2bFIwPWXN9pTkEu0BCDYS6AEKHFBUdmlxODcyTGtSSXIzalh6MmFiNExnUmNqbz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0Ky9vNTd2amp2QnFTZ2RISjcwZXkxbEVWSk5aRVN3OURzdXNYSkJDazhpUmJiaUtxYU1HTm1GaEMzWTdoUE93S2FrMytWaXc9PRgAIAIoAjDd7Y7lvZGHAzjBju+wiDJA9I7vsIgyShxYY21qU0N2U1FsSlFYQldGS0JseXBDdWIwbFU9WiAiHv/7R1NvWHBnTmFnb25nRW5vSm53N2tFM0N0RS8wPWXRomr/EuwBCBMS5wEKHC9pekIwN09ZYmZuempuUHQzdGtNZW5ic3RWaz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K3A3ZUdNL3dNS0lsaTJLZHFCdGdBTE44dFd2OFlsSSsxRU9UR1ZOZGVwQnpPN082bC9NemtLaDdqR3VpKzcwY3NGRG0waWc9PRgAIAIoAjC0m8q3nIOFAzjjwfXk5TFA88H15OUxShxTcXVVZUk5bi9wVGFWZFBvZGhjUUNOYWtzUms9Wh8iHe1hUUNXb1daU1d2bkFIUk9ZaHIwbCtDY2xzS289Zc32lOQS7AEIDxLnAQocaWcxNkxvRGJWTFB4bmQwajdjWjdyTWN6QVZjPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrV3k0U1ZiOVRQS2FxcWdLazJnczZJQzZPTzVIa3BsMXlBK1hmSnZTN1orMW1UMlgyMDNnUUp3VkVHTnBnT1phUExZV1BDZz09GAAgAigCMPOvucz3gYUDOP7q6M/lMUCV6+jP5TFKHGNDNkZZSjcrM2dkcjR5Q1hsRmpmVzRib3RpWT1aHyIdtzY2T0g5cDdaY1o0TS9HbXpqOGZqcjgxWjJpST1lQpWOdhLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWno2eGZnLzY1LzdRUkZDNXgyL3FHb0xaZDVUUFprWlVuT2JhZVhSbGVoWmZqQnltNjN1bnRNbWxNdmhqZTlxTFR2SGh2dFBSMGowd1NXOXJFcy9NeXNkbXNlcVNBPT0YACAAKAAwhf7jvZPBgQM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABLtAQguEugBChxHQ3lpTEF3dkdjL1VWeTd0TDBhc1pVcUgxQTQ9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtWQUlTSCtuSWMyOThMMjJjZ1ZWbGtxMTBoNXFGR2tSZURiL1BhemRXVUVGTmtoQy9GVTdTV3dJV3lQdzFxMkQxQjRxazdRPT0YACACKAIwiuaQgYbQhgM4h6figIAyQLan4oCAMkocdE9ZZ29xY2tINWFiUVVMMHNFb1M5enQ2Q1hzPVogIh7/sTk4SmozdVRobUo2ek0xUkZ3blo3bTcwSU5pUT1l7dA6DBLrAQgFEuYBChxEYWxwNXdLSzhkOGhKemRyVUJYNktGZUJIdnc9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtWTDRnUExON2haTHd3WEhDRFdLN2F1bXEvbW5rWVBIdEdLNkY3NldQdGV1MnVGS1VWOTNLaS8rek1EbTE4S2NTeUdLNjlRPT0YACAEKAQw9oyQldOkigM4/cKAo6wxQInhrf67MkocQjYzVVBPeThpMm0zUG9qNU5UTFIwQnh4dUhJPVoeIhxzRDdvSHNoNldjZ1c1MlNUOXpnNUdQRFBOQXc9ZZs9hbYS7AEIERLnAQocRnZuSldiNFlOV0hHWGpCcUloTjU2SVEwQU5vPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrQm43Q3VuZlQxemExekh3R01EeFU5bkZDRmNEUHhpaXZhUkd4YW9sNlRzUnIxRDlKMnp3MFcwQ3c3dTJBMU93SWliVExudz09GAAgAigCMMfG1dnkgoUDOMO9493lMUDwsOTd5TFKHGM1KzFFMmNVNm5HZExpZERZcjA5SFF1bkI3cz1aHyId21pFL05kU29lVWF3Y1E5QzlJMi9iWlVZZ1ZEcz1ljdjhyRLsAQgmEucBChxPYkNzeWgrR0h3UkRybkp1ZkplR2I5V1FRMVk9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtZNjhRRjQyM09VdmYwalQ4RlpVWXo4c2RjS3d4Y2wyVllxRnNHempqTkxDYjc5SnFaTEgwTFduTDlqeVpXSDFVMGFBWjV3PT0YACACKAIwh5zsnd+ohgM47Ifq/PoxQOiM6vz6MUocSGlpeDdxQVUzUkhXMXVia1c5Q0Z3NjlSWUJFPVofIh37OEZXMW1UclhIMkxuUlNOYXdxbmswNE9JdzJzPWVXBTtmEuwBCBgS5wEKHG9KU1NQZEtUSy93MFdDZ01kVDkxS013MUc1Yz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K0dnbGFaNzJvUW5sSnIrTkFzYlVnYVQxNzg1NGFVSVJydnJKQ1VOT05uU1RFdjBwMUxsMzJVNVA4dzhHRWlibTJCdnRTREE9PRgAIAMoAzDxi6rSiNCGAzjavq6Q5jFAlbyNgYAyShxjMS8wcmFXd1o3bUZkQ2ZoTU05WkgyQXViRlE9Wh8iHf12SlBWaUllUFBoSS81dHBhRDJBUzN2L014QUU9ZUMGkC4S7AEIBxLnAQocaC9xNHdEQWxMUnNEUTk5TFd1TzBUeS9iOU5BPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrcUFKUFdSVFREOURPNFFZc2tqeC9BUzJJM1dwcVhNbDhXQXpNRit3OVF0T3B1ajE4cC9wamliRlU2cGxrbUl5UTloUHhHQT09GAAgAigCMKyRyJP/2oQDOP7CgKOsMUDB6ufR4DFKHDhNVytLb2YwRXAvb1NveHV0RkFZaWZiTHc2WT1aHyId3FlXS2JlaXZWWURwaHlnczdJajNaeUExaHoxYz1lPWyFERLsAQggEucBChw3R2huV1I1SkJGVTk2YlpKYVFKRHFBTFVsUFk9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCthMGl5WVF0MGs1djRHeng1WUZpSGVzbFJWWmY2bnk2THNJSjRIeW1QTGdnbzFuK3VLcTRwMVVNRDlxRWk5akttbFk3aFN3PT0YACACKAIw9LyrqdiohQM4l7blyuoxQKS25crqMUocT0xvb0NSbWFMYUNpSUdYbGNTY3ZDR3NTT2swPVofIh3bREs0ZW9BRkt6NnBSc0w4TVo4eGxYb1kzRUZzPWXc/m8dEuwBCAYS5wEKHGtqdjF1V0VyR25yRUMzdmxERHlOZUhaM0xWYz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K0ZLay9mK21DTDFrSXRBRmdsOWpSWENTcVM4ZEdySjYwQXc5am8zQjZnbFQ5MGdpcE93VzQxVmZGUGh3Y3pVUjBuL0FMWWc9PRgAIAMoAzDYmZ3t+/6KAzj9woCjrDFAmqKQxscyShwrKzJva1pSc2Era2xVZkdndDVHSC9Ya21VQUE9Wh8iHbloekI0WkdqRjdYQUlLMWNjWTAxT1JVV1Jia2c9Zf2cjEoSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp3L1dMVWczSStDV1BaSHFKaTNLQ3RsMUM4MGRqVitvaGxIYXFUMjd0bXdBbUNYaDFBZGZvZ0pkUjBoUFI1eUMwOXVjZVZUGAAgACgAMIX+472TwYEDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS6wEIHRLmAQocbFhmR0Mvb2I3TjNDR0Q4SEVwaHpKc1V1WjJNPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrSHRRdkIrNkdYWFBFRG9IREVlc3ZYWDI4bG40VGlIS1BKRVVJQWczZWZXeXd1dEwwak9KbDdHWnNnbnNrdHB1K2UyZGNBUT09GAAgACgAMPLykpTunYUDOO2Mo7HoMUCYzq6Z6TFKHC91MW5LODUwa1ZjcGFqNDJ2T1VuV2Vlck9pST1aHiIcbStTVEd5bFphMW9UU0lkdElvZEpieVk0Y3NZPWXQQCuAEu0BCEES6AEKHG9PbFRaZEE5dG5INlNoaEpRakJYQlJ2RTNLZz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K01CbUxJUmgyaEQ5ZWtDOWFEY1dzckxKK3VPZ1BOZXNLMENOZ20raHd4d2lEVi9XRHhUWDBUazZGKzFCQWR2S0hON0Z5cFE9PRgAIAIoAjD6vorGke2IAziR29e/pDJAq9vXv6QyShxsWTFiZVJtaVpUMjJNMU1LQnVBMkxBNkc5dzQ9WiAiHv//endidFFHRFlXSWQ1N0pwbnR6WVQxS2hzVWZNPWXI8z+7EsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad2FSa3RlNjhRYUZoV29RcjlhNFlDd3dRODY4UElxNUU1U0xPbHZIVVFpRVJxcVhmdmRTYlh6NzF6R04xR0xPYnBLVUc0aTlmdHMzVTdSNmtrM1hSMjkvaXZPc0E9PRgAIAAoADCF/uO9k8GBAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEuwBCCgS5wEKHG5CN1Fzcjd0eERyb1djc0R5NExXeE1hc0txYz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K01JdnlETU1MUitldEozK09Pelo3Vk94TVQzVzZtVmR5R3VoRXNjU21USEVQNFJ6dG1uaXI1eDQ4dmVuS1RpUGtyclhhcUE9PRgAIAIoAjD5m+3X362GAzjYmufO+zFA/KDnzvsxShxGaHd1TTZlUWZGenhtMjdqbDZQQy9ZZklCWVk9Wh8iHf1PbUtmWXVvRTVWeE5pbWVrY3FjZ3lQbkNtdzg9ZVOg5fgS6wEIDBLmAQocTmxibGlxRGVQa2czeFZlN1VmS3RvckFvTy9FPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrQUd5bHk0MWNQNnBEeDNSSTFEdUl2L0d0bVVOTVM3d29Zek10WnkvQmY1YVROSWtUWkREWmpyTzZwdmxuTDdtVmlnZnhrUT09GAAgBSgFMOThiNfj7IgDOPvOvrjbMUDwoui5pDJKHHpVbGFBK0NHUUdwdGJtVkZMRzQ5aXl5cXZHbz1aHiIcU0tNdHJRbVdCc2c5MEpIdVA1RXNsUHVFejdvPWXI8z+7Eu0BCDAS6AEKHFk4UFdLUC9PNTdIK1lYd01BcUFEMjBlNzFTUT0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K1BTN2IyUUppRVRRemhidXZNV3hxMWxtT2pWUzV5OWY4UzhMaTBSbitRMVpWNWs3SmdTZlVaMCs0czgydzUyMXRHR0ViNkE9PRgAIAEoATCu/cuogM+HAzj7jYe/gDJAlLDnoJAyShxTK1JkNVBJaFVEVGtrM2M0MzJXK1ptUDlWQ0k9WiAiHv/YT2VCaHFPQ1VOL014V2wrU3NXK2haZ0t3eWZrPWUrqvCaEuwBCCwS5wEKHHBIVkN0azZUbGlTZTIyYmFvMXMrRktMZGNwWT0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K21NdEpCK0x5bWZ6VTV4d0ZDTitYMnhzc1F4QTN5RHR6UkZwY3Q2Zy9kQTBaZmFaalV1MHJZV0tKb0dIcjUxbEo4S2pHZEE9PRgAIAIoAjCF5fmoj8uGAziKiIWw/zFAp4iFsP8xShxqTm93VWNWQ3VQK1BsRmh4clZpQTZZVTlPU0k9Wh8iHf9iYlJjb1M2c2cvZVZrSjE5MjhCL1Z3ZlcrelU9ZVljzY8S7AEIIhLnAQocWHd4cXlVSTZOTGJhK0xWUmRtUGRFMXlnNmJrPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrTjAzaHI1bDBtbDdZQmRmRzdoUW5DV1dUVCt1NlJtanh1bkhDZm1CblRRZHJrNkMwSmV0WXZkVXVSNkdjekQwRDlBZUl0QT09GAAgAigCMJHnw8+0jIYDOLDPz6z3MUDCz8+s9zFKHDFveEVqSDY3WDNpekdDRC9HeWd4ZHlWbzFrND1aHyId7UlydjB5Y0M1a2NjRUV6T0FBUmx2Y0F4dHo0az1lVwU7ZhLtAQg0EugBChxEenh4aGRNU21lcE82bWNpUkN3UjZyYmlGUEk9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtScW5TZEhjb20ybmM1dUFiS0hLSEV6RWJ0YWd6OUtiOEdrRGZ0K3RHM2k5NTROUThBTGcrbWRQa2NmZk9pTTV2a2o4U2N3PT0YACACKAIwsPHpoaSChwM4y83rt4YyQOPN67eGMkocSUk2enFaMURPNy9zeHZxK0pVeGJSMm1hUENFPVogIh7/9jd3TjczNlEvTWdkY0tKc3FJQjg0ZVBUVzE1az1lVwU7ZhLsAQgkEucBChxicmJqZnZnNER6Z0t6bVVUTXhGK1RlU3RIaWc9EmZaOkFEcXRBWng0VEdiSkZiU3dHaTRLaWVtdXVCdCtXeHBTZTEyNFdSRzJ3aXZBaitkQVFaU0ZQVjFHa2VsVm1VejdRNWx0VGZYbjduTmU3akYxbkVrT3JFdG1UMWFPL2YrRFJBPT0YACACKAIwzM34zrOWhgM4kI2q0PgxQPPeqtD4MUocaVZiR1g1L0JMbXcySFBVMTJCQWNsSzNSdkd3PVofIh32SDJBZGRQWk5BcE9JWTdjVytLcWFJcGxkN3NJPWXovXOvEuwBCBsS5wEKHG9KcUUrMWlPTmd1ZnZSS3BrajBodm5ITExCND0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K3FRekNlUlhLS3ZPVDZvc0FvbzZNejlQby9pdk1reFRzcm5uYkJKMkd4d29OWHhaelV3WHVpKy9WVmgzUHh1bmNuZDRNNUE9PRgAIAIoAjC966u2pJKFAzjk3tnb5zFA8N7Z2+cxShxtSVo3dHp1SE9PQnZMZ2VQNUNvcnhQdkdLbkU9Wh8iHf9KU2dENmk3UzljR3F5OWVtSEFaR2gxa0ZjWVk9ZaMrWSMS7gEIRRLpAQocKzFGcG00QnFIVlFmL3JEWHBJVDVoUlJNdS9FPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrR2ljWGg4R2o1ZzZNYlFKVldwK0EwOHlmdFUvd0piSjdlL1pLdERWT2drWXF1VXRtMHpRVVFNZzhVQlN3V2d3QkhYQXFBdz09GAAgAigCMKDZqvHsn4wDOJSQhJLcMkDXkYSS3DJKHE1JRDVkakw1dlZxeXVhV0dnOVBQZ2ovczRwUT1aISIf///eQVBpSi9RbUJNMVhMaC9qMVB5L0h0dGlQNEZjPWVLemUbEuwBCBYS5wEKHEwxTzFoQlpjdmJScWNMbENSVnR1cWVSS1NZaz0SZlo6QURxdEFaeDRUR2JKRmJTd0dpNEtpZW11dUJ0K0lCTUVGYVV4YVprVnowa2ZJd0VXTHBUQmlXWjVHUnAvTzVKVlVVV25KVUUwb094RnUyajdmaVljODFaMlZ6ZDV5VFQwbUE9PRgAIAMoAzDk4YjX4+yIAzjDmOKJ5jFA8qLouaQyShxNYWptVUdpbUhtRDhMdHpvb2xtUEdnNVp6d2s9Wh8iHftGcllBSndtTmUwYWlsSEIycXBNTmRKY1lHQ0E9ZcjzP7sS7QEIOBLoAQocRWhwZFZ2bEZqbmNWVWpDTEw3NysySjlYS2RRPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrdCt5dDhkMWd3S1ZneHl1QktQVS92N2pkUDZkeHJyaUJvVGgrb0pCN0RJaU5TNTRURlNsUUhMVm1NeFY0SDl2MmFTLzJhUT09GAAgASgBMPK3t8TszocDOPKdo56QMkDynaOekDJKHE0xdzVmT2oyK3MvTDYyVm0rb2JyY2xDYUdEQT1aICIe//1xblY4cWNBaDJoYVNya3FxREd0SnhUUTJiV2c9ZQAAAAAS7gEIQxLpAQocTSs5RnZad1diR2lUa3pUa0xoSVd0a2R3Y05jPRJmWjpBRHF0QVp4NFRHYkpGYlN3R2k0S2llbXV1QnQrb3R2TGRiYTlHWEtKa3RJZGErZkRmMWViN0pONWUzSnFKK3NCNEI5bTNPSWJwbWRaWVhXNmxscW1vMW1HcW15WEU3Q0dIQT09GAAgAigCMOPm3eqxkokDOIGvg6KpMkCpr4OiqTJKHGlDWTI1UU5OS1dJVE9YMzBTY0lIdTVYaStQcz1aISIf//+9UnlJNnlvQlQ0VE50Z0FkejcyK0pscjRvaDQwPWWNMy8xMAE4AA==",
+   "version": 1
+}

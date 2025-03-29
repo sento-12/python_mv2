@@ -1,0 +1,24 @@
+2025/03/29-16:15:44.236 4580 Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/29-16:15:44.237 4580 Recovering log #79
+2025/03/29-16:15:44.255 4580 Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000079.log 
+2025/03/29-16:15:47.064 3b38 Level-0 table #84: started
+2025/03/29-16:15:47.087 3b38 Level-0 table #84: 1372309 bytes OK
+2025/03/29-16:15:47.091 3b38 Delete type=0 #79
+2025/03/29-16:15:52.333 3b38 Compacting 1@1 + 1@2 files
+2025/03/29-16:15:52.345 3b38 Generated table #85@1: 314 keys, 69140 bytes
+2025/03/29-16:15:52.345 3b38 Compacted 1@1 + 1@2 files => 69140 bytes
+2025/03/29-16:15:52.346 3b38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/29-16:15:52.347 3b38 Delete type=2 #81
+2025/03/29-16:15:52.347 3b38 Delete type=2 #84
+2025/03/29-16:24:30.080 1bb4 Level-0 table #87: started
+2025/03/29-16:24:30.089 1bb4 Level-0 table #87: 470077 bytes OK
+2025/03/29-16:24:30.091 1bb4 Delete type=0 #83
+2025/03/29-16:24:30.092 1bb4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/29-16:24:30.092 1bb4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 101304 : 1
+2025/03/29-16:24:30.092 1bb4 Compacting 1@1 + 1@2 files
+2025/03/29-16:24:30.097 1bb4 Generated table #88@1: 340 keys, 80144 bytes
+2025/03/29-16:24:30.097 1bb4 Compacted 1@1 + 1@2 files => 80144 bytes
+2025/03/29-16:24:30.098 1bb4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/29-16:24:30.099 1bb4 Delete type=2 #85
+2025/03/29-16:24:30.099 1bb4 Delete type=2 #87
+2025/03/29-16:24:30.100 1bb4 Manual compaction at level-1 from '\x00\x09\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 101304 : 1 .. (end); will stop at (end)

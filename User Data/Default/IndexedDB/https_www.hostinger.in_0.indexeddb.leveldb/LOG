@@ -1,0 +1,14 @@
+2025/03/29-09:32:31.780 6768 Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.hostinger.in_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/29-09:32:31.781 6768 Recovering log #22
+2025/03/29-09:32:31.782 6768 Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.hostinger.in_0.indexeddb.leveldb/000022.log 
+2025/03/29-09:32:31.783 6768 Delete type=2 #20
+2025/03/29-09:32:31.807 356c Level-0 table #27: started
+2025/03/29-09:32:31.813 356c Level-0 table #27: 511 bytes OK
+2025/03/29-09:32:31.815 356c Delete type=0 #22
+2025/03/29-09:32:31.816 356c Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 221 : 1
+2025/03/29-09:32:31.817 356c Compacting 1@0 + 1@1 files
+2025/03/29-09:32:31.822 356c Generated table #28@0: 12 keys, 487 bytes
+2025/03/29-09:32:31.822 356c Compacted 1@0 + 1@1 files => 487 bytes
+2025/03/29-09:32:31.823 356c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-09:32:31.823 356c Delete type=2 #27
+2025/03/29-09:32:31.824 6768 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 221 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

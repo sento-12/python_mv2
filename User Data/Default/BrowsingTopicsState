@@ -1,0 +1,63 @@
+{
+   "epochs": [ {
+      "calculation_time": "13385725156658992",
+      "config_version": 0,
+      "model_version": "0",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 0,
+      "top_topics_and_observing_domains": [  ]
+   }, {
+      "calculation_time": "13386334341119591",
+      "config_version": 0,
+      "model_version": "0",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 0,
+      "top_topics_and_observing_domains": [  ]
+   }, {
+      "calculation_time": "13386939236676916",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 528
+      }, {
+         "hashed_domains": [  ],
+         "topic": 521
+      }, {
+         "hashed_domains": [  ],
+         "topic": 427
+      }, {
+         "hashed_domains": [  ],
+         "topic": 59
+      }, {
+         "hashed_domains": [  ],
+         "topic": 250
+      } ]
+   }, {
+      "calculation_time": "13387544037684822",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 5,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [ "-8804414638562114365", "-6842433673944243055", "-6621418828744869761", "-5597377242995500266", "-5137463149638049796", "7036581091251892111", "8260500775225150358" ],
+         "topic": 126
+      }, {
+         "hashed_domains": [ "-6842433673944243055", "-4433810915159465718", "1382271400359845385", "7036581091251892111" ],
+         "topic": 164
+      }, {
+         "hashed_domains": [ "-4433810915159465718", "1382271400359845385", "7036581091251892111" ],
+         "topic": 254
+      }, {
+         "hashed_domains": [ "-6842433673944243055", "-4433810915159465718", "1382271400359845385", "7036581091251892111" ],
+         "topic": 561
+      }, {
+         "hashed_domains": [ "-6842433673944243055" ],
+         "topic": 253
+      } ]
+   } ],
+   "hex_encoded_hmac_key": "63CE4A855228C81D4C4657A0C4F2DC2241DD953A7143C2366248EEEFA8CCD327",
+   "next_scheduled_calculation_time": "13388148837799963"
+}

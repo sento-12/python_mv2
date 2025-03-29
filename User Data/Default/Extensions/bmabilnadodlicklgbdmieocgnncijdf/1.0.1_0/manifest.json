@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      }
+   },
+   "author": "Anysol Providers",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "description": "With SearchToDo, you can create and edit your own to-do lists, with our simple and beautiful customized new tab!",
+   "differential_fingerprint": "1.00210a9efc3db9a85cf4198ebc70c9fb1346db0a70dda9332ce792c7b7fe9bf7",
+   "host_permissions": [ "*://*.searchtodo.com/*" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmUv4Y33KHzXn4A+RlqKdIK8cFhzbyf3Hcnwcs7p8uefRqbDEfdoqdvNDDTa2KaXg65ZLtcGw4LvZ1nk0wFOImfOufKdBV59L/mwOB/hzyr/ZWAhyn9sPZNa/t7VEiPhWjCQICoCDMR1DhvKxne0W9X+7fmoohZns0Bpdb5LvnrqssxqnplyPWk/QHkKQK8an7Dhz7mCRKjM7iZDPgs7fbRHtP1k5UFPxZG20XxSdxAUB/ZuFlA50jYTl0dQ3UrjSbp4e+iDZ6G0vHLYV8RSMWN85s0fmCzi57lIVBvZlOzeOk/fDikiZGoeGU8BL1blyjSvlYMLOCh7sL1fXNMHyuwIDAQAB",
+   "manifest_version": 3,
+   "name": "SearchToDo",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

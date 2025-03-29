@@ -1,0 +1,4 @@
+2025/03/20-15:24:20.558 266c Reusing MANIFEST C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/20-15:24:20.559 266c Recovering log #4
+2025/03/20-15:24:20.560 266c Reusing old log C:\Users\divyjeet\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.zoho.com_0.indexeddb.leveldb/000004.log 
+2025/03/20-15:24:20.576 3af8 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
