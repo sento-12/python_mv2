@@ -25,9 +25,10 @@ chrome_options.add_argument(
 chrome_options.add_argument("profile-directory=Default")  # Specify the profile if necessary
 
 # Authenticate with Google Sheets API
-credentials = json.loads(os.environ['GOOGLE_CREDENTIALS'])
+credentials_json = os.getenv("GOOGLE_CREDENTIALS")
 
 # Set up Google Sheets API client
+credentials = json.loads(credentials_json)
 gc = gspread.service_account_from_dict(credentials)
 open_sheet = gc.open('PD')
 open_sheet1 = gc.open('Tradingview Data Reel Experimental December')
