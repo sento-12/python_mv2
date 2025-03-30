@@ -28,6 +28,8 @@ jobs:
 
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4
+      run: pip install gspread google-auth
+
 
     
     - name: Run TV Scrapping
