@@ -29,15 +29,8 @@ jobs:
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4 gspread google-auth google-auth-oauthlib google-auth-httplib2 oauth2client
 
-    - name: Create credentials file
-      run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" | base64 --decode > service_account.json
-
-      shell: bash  
-      env:
-        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
     - name: Run script
       run: |
-        export GOOGLE_CREDENTIALS=credentials.json
         python TV_Scrapping.py
 
