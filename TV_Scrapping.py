@@ -10,8 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 import json
-from oauth2client.service_account import ServiceAccountCredentials
-
+from google.oauth2.service_account import Credentials
 from bs4 import BeautifulSoup
 import pickle
 
@@ -33,8 +32,9 @@ if not os.path.exists(CREDENTIALS_FILE):
 # Authenticate with Google Sheets API
 with open(CREDENTIALS_FILE, "r") as file:
     credentials_json = json.load(file)
-
-gc = gspread.service_account_from_dict(credentials_json)
+    
+credentials = Credentials.from_service_account_info(json.loads(credentials_json))
+gc = gspread.authorize(credentials)
 
 # Open Google Sheets
 open_sheet = gc.open('PD')
