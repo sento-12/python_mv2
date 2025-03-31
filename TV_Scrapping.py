@@ -26,11 +26,16 @@ chrome_options.add_argument("profile-directory=Default")  # Specify the profile 
 
 # Authenticate with Google Sheets API
 credentials_json = os.getenv("GOOGLE_CREDENTIALS")
-
+if credentials_json:
+    credentials = json.loads(credentials_json)
+    gc = gspread.service_account_from_dict(credentials)
+    open_sheet = gc.open('PD')
+else:
+    raise ValueError("Google credentials not found in environment variables")
 # Set up Google Sheets API client
-credentials = json.loads(credentials_json)
-gc = gspread.service_account_from_dict(credentials)
-open_sheet = gc.open('PD')
+# credentials = json.loads(credentials_json)
+# gc = gspread.service_account_from_dict(credentials)
+# open_sheet = gc.open('PD')
 open_sheet1 = gc.open('Tradingview Data Reel Experimental December')
 sh = open_sheet.worksheet('Sheet27')
 company_list = sh.col_values(33)
