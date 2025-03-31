@@ -29,10 +29,10 @@ jobs:
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4 gspread google-auth google-auth-oauthlib google-auth-httplib2 oauth2client
 
-    - name: Configure Google Credentials
-      run: |
-        run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" | base64 --decode > credentials.json
-      shell: bash
+    - name: Create credentials file
+      run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" | base64 --decode > credentials.json
+
+      shell: bash  
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
