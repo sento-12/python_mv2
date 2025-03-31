@@ -30,7 +30,7 @@ jobs:
       run: pip install selenium gspread beautifulsoup4
 
     - name: Configure Google Credentials
-      run: echo "$GOOGLE_CREDENTIALS" > credentials.json
+      run: echo "$GOOGLE_CREDENTIALS" | base64 --decode > service_account.json
       shell: bash
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
