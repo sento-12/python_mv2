@@ -28,6 +28,8 @@ if not os.path.exists(CREDENTIALS_FILE):
 
 with open(CREDENTIALS_FILE, "r") as file:
     credentials_json = json.load(file)
+    
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 # Authenticate with Google Sheets API
 credentials = Credentials.from_service_account_info(credentials_json)
