@@ -29,6 +29,6 @@ jobs:
 
       - name: Run script
         run: |
-          export GOOGLE_APPLICATION_CREDENTIALS=credentials.json
+          export GOOGLE_CREDENTIALS=credentials.json
           python TV_Scrapping.py
 
