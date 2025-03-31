@@ -10,110 +10,90 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 import json
+from oauth2client.service_account import ServiceAccountCredentials
 
 from bs4 import BeautifulSoup
 import pickle
 
 # Configure options for Chrome
 chrome_options = Options()
-# chrome_options.add_argument("--remote-debugging-port=9222")  # Change this port for each instance
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-extensions")
 chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument(
-    "user-data-dir=User Data")  # Main user data directory
-chrome_options.add_argument("profile-directory=Default")  # Specify the profile if necessary
+chrome_options.add_argument("user-data-dir=User Data")  
+chrome_options.add_argument("profile-directory=Default")  
+
+# Set the credentials file path
+CREDENTIALS_FILE = "service_account.json"
+
+# Ensure the credentials file exists
+if not os.path.exists(CREDENTIALS_FILE):
+    raise FileNotFoundError(f"Google credentials file '{CREDENTIALS_FILE}' not found. Ensure it's present in the repository.")
 
 # Authenticate with Google Sheets API
-credentials_json = os.getenv("GOOGLE_CREDENTIALS")
-if credentials_json:
-    credentials = json.loads(credentials_json)
-    gc = gspread.service_account_from_dict(credentials)
-    open_sheet = gc.open('PD')
-else:
-    raise ValueError("Google credentials not found in environment variables")
-# Set up Google Sheets API client
-# credentials = json.loads(credentials_json)
-# gc = gspread.service_account_from_dict(credentials)
-# open_sheet = gc.open('PD')
+with open(CREDENTIALS_FILE, "r") as file:
+    credentials_json = json.load(file)
+
+gc = gspread.service_account_from_dict(credentials_json)
+
+# Open Google Sheets
+open_sheet = gc.open('PD')
 open_sheet1 = gc.open('Tradingview Data Reel Experimental December')
 sh = open_sheet.worksheet('Sheet27')
 company_list = sh.col_values(33)
 name_list = sh.col_values(1)
 sh1 = open_sheet1.worksheet('Sheet1')
 
-current_date = date.today().strftime("%m/%d/%Y")  # Get current date in DD/MM/YYYY format
+current_date = date.today().strftime("%m/%d/%Y")  # Get current date in MM/DD/YYYY format
 
-# Set the checkpoint filename and path
+# Set the checkpoint filename
 checkpoint_file = "checkpoint_new1.txt"
 
-# If the checkpoint file exists, read the last successful iteration number from it
+# Read last successful iteration
 if os.path.exists(checkpoint_file):
     with open(checkpoint_file, "r") as f:
         last_successful_iteration = int(f.read().strip())
-        print(last_successful_iteration)
 else:
     last_successful_iteration = 1
 
 # Iterate over the list of companies
 for i, company in enumerate(company_list[last_successful_iteration:], last_successful_iteration):
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")  # Run headless Chrome
     if i > 1903:
-        break  # Stop the loop when the iteration number reaches 325
+        break  # Stop the loop at 1903
 
     name = name_list[i]
 
-    # Set up the webdriver with existing session
-    driver = webdriver.Chrome(
-        service=Service('chromedriver.exe'),
-        options=chrome_options)
+    # Set up the WebDriver
+    driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=chrome_options)
     driver.set_window_size(1920, 1080)
     driver.implicitly_wait(20)
 
     try:
-        # Load the webpage for the company (TradingView link)
+        # Load TradingView page
         driver.get(company)
-        time.sleep(1)  # Wait for a moment to let the page load
+        time.sleep(1)  # Allow page to load
 
         wait = WebDriverWait(driver, 30)
+        element1 = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[2]/div/div[5]/div/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[2]/div[2]/div')))
 
-        # Wait for the specific element to be visible (adjust XPath as needed)
-        element1 = wait.until(EC.visibility_of_element_located((By.XPATH,'/html/body/div[2]/div/div[5]/div/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[2]/div[2]/div')))
+        # Parse page source
+        soup = BeautifulSoup(driver.page_source, "html.parser")
 
-        # Get the page source after data is loaded
-        page_source = driver.page_source
-
-        # Pass the page source to Beautiful Soup for parsing
-        soup = BeautifulSoup(page_source, "html.parser")
-
-        # Extract data using CSS selectors or other methods
+        # Extract data
         value_elements = soup.find_all("div", class_="valueValue-l31H9iuA apply-common-tooltip")
-
-        # Initialize empty lists to store the values
-        values = []
-
-        # Loop through the elements and get their text values
-        for value_element in value_elements:
-            value_text = value_element.get_text()
-
-            # Preprocess the value_text to remove non-numeric characters and handle 'K' and 'M'
-            cleaned_value = value_text.replace('−', '-').replace('∅', 'None')
-            values.append(cleaned_value)
-
-        # Convert values to strings for Google Sheets compatibility
-        values = [str(value) for value in values]
-        row = [name] + [current_date] + values
+        values = [value.get_text().replace('−', '-').replace('∅', 'None') for value in value_elements]
 
         # Append row to Google Sheets
+        row = [name] + [current_date] + values
         sh1.append_row(row, table_range='A1')
 
     except NoSuchElementException as e:
-        print(f"Encountered an error while processing {company}: {str(e)}")
+        print(f"Error processing {company}: {str(e)}")
 
     finally:
-        # Close the Selenium WebDriver after each iteration
         driver.quit()
 
-    # Update the last successful iteration number in the checkpoint file
+    # Update checkpoint
     with open(checkpoint_file, "w") as f:
         f.write(str(i))
