@@ -43,7 +43,7 @@ jobs:
           exit 1
         fi
           unzip chromedriver.zip
-          ls -R  # Debugging: List extracted files
+          # ls -R  # Debugging: List extracted files
           sudo mv chromedriver-linux64/chromedriver /usr/bin/chromedriver
           sudo chmod +x /usr/bin/chromedriver
           chromedriver --version
