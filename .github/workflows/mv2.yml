@@ -28,7 +28,18 @@ jobs:
 
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4 gspread google-auth google-auth-oauthlib google-auth-httplib2 oauth2client
-    
+      
+    - name: Install Chrome
+      run: sudo apt-get update && sudo apt-get install -y google-chrome-stable
+
+    - name: Install ChromeDriver
+      run: |
+        CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+')
+        wget https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/bin/chromedriver
+        sudo chmod +x /usr/bin/chromedriver
+
         
     - name: Set up Google Credentials
       run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > service_account.json
