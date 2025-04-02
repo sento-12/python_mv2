@@ -72,7 +72,7 @@ for i, company in enumerate(company_list[last_successful_iteration:], last_succe
         break
     
     name = name_list[i]
-    driver = webdriver.Chrome(service=Service('chromedriver'), options=chrome_options)
+    driver = webdriver.Chrome(service=Service('/usr/bin/chromedriver'), options=chrome_options)
     driver.set_window_size(1920, 1080)
     driver.implicitly_wait(20)
     
