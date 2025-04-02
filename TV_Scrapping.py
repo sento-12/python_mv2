@@ -52,7 +52,7 @@ gc = gspread.service_account_from_dict(credentials)
 # Open Google Sheets
 gsheets = gc.open('PD')
 gsheets1 = gc.open('Tradingview Data Reel Experimental December')
-sheet = gsheets.worksheet('Sheet27')
+sheet = gsheets.worksheet('Sheet40')
 company_list = sheet.col_values(33)
 name_list = sheet.col_values(1)
 sheet1 = gsheets1.worksheet('Sheet1')
