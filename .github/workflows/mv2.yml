@@ -31,10 +31,9 @@ jobs:
     
         
     - name: Set up Google Credentials
-      run: echo "$GOOGLE_CREDENTIALS" > service_account.json
+      run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > service_account.json
 
     - name: Run Python Script
       run: |
-        export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/service_account.json
         python TV_Scrapping.py
 
