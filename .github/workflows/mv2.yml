@@ -29,9 +29,13 @@ jobs:
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4 gspread google-auth google-auth-oauthlib google-auth-httplib2 oauth2client
       
-    - name: Install Chrome
-      run: sudo apt-get update && sudo apt-get install -y google-chrome-stable
-          google-chrome --version
+    - name: Download Chrome 135
+      run: |
+        wget -q -O chrome.zip "https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.42/linux64/chrome-linux64.zip"
+        unzip chrome.zip
+        ls -R  # Debugging: Check extracted files
+        sudo mv chrome-linux64 /opt/google/chrome-135
+        sudo ln -sf /opt/google/chrome-135/chrome /usr/bin/google-chrome
 
     - name: Install ChromeDriver
       run: |
