@@ -34,12 +34,12 @@ jobs:
 
     - name: Install ChromeDriver
       run: |
-        CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+')
-        wget https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip
-        unzip chromedriver_linux64.zip
-        sudo mv chromedriver /usr/bin/chromedriver
+        sudo apt update
+        sudo apt install -y wget unzip
+        wget -q -O chromedriver.zip https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.42/linux64/chrome-headless-shell-linux64.zip
+        unzip chromedriver.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/bin/chromedriver
         sudo chmod +x /usr/bin/chromedriver
-
         
     - name: Set up Google Credentials
       run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > service_account.json
