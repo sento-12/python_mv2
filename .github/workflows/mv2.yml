@@ -25,6 +25,13 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+        
+    - name: Install FFmpeg
+      run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+    - name: Start Screen Recording
+      run: ffmpeg -video_size 1920x1080 -framerate 10 -f x11grab -i :99 -y screen_recording.mp4 &
+
 
     - name: Install dependencies
       run: pip install selenium gspread beautifulsoup4 gspread google-auth google-auth-oauthlib google-auth-httplib2 oauth2client
@@ -55,6 +62,7 @@ jobs:
           
     - name: Set up Google Credentials
       run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > service_account.json
+
 
     - name: Start Virtual Display (Xvfb)
       run: Xvfb :99 -screen 0 1920x1080x24 &
