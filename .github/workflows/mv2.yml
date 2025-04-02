@@ -37,10 +37,17 @@ jobs:
         sudo apt update
         sudo apt install -y wget unzip
         wget -q -O chromedriver.zip https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.42/linux64/chrome-headless-shell-linux64.zip
-        unzip chromedriver.zip
-        sudo mv chromedriver-linux64/chromedriver /usr/bin/chromedriver
-        sudo chmod +x /usr/bin/chromedriver
-        
+        # Check if the file was downloaded
+        if [ ! -f chromedriver.zip ]; then
+          echo "ChromeDriver download failed. Exiting."
+          exit 1
+        fi
+          unzip chromedriver.zip
+          ls -R  # Debugging: List extracted files
+          sudo mv chromedriver-linux64/chromedriver /usr/bin/chromedriver
+          sudo chmod +x /usr/bin/chromedriver
+          chromedriver --version
+          
     - name: Set up Google Credentials
       run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > service_account.json
 
