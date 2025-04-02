@@ -36,14 +36,16 @@ chrome_options.add_argument("profile-directory=Default")
 #   "universe_domain": "googleapis.com"
 # }
 
-credentials_json = os.getenv("GOOGLE_CREDENTIALS")
+# Use local file instead of environment variable
+CREDENTIALS_FILE = "service_account.json"
 
-if credentials_json:
-    credentials = json.loads(credentials_json)
-    gc = gspread.service_account_from_dict(credentials)
-    open_sheet = gc.open('PD')
-else:
-    raise ValueError("Google credentials not found in environment variables")
+if not os.path.exists(CREDENTIALS_FILE):
+    raise ValueError("Google credentials file not found!")
+
+with open(CREDENTIALS_FILE, "r") as f:
+    credentials = json.load(f)
+
+gc = gspread.service_account_from_dict(credentials)
 
 
 
