@@ -89,6 +89,12 @@ jobs:
       with:
         name: screen_recording
         path: screen_recording.mp4
+    - name: Upload Screenshot
+      uses: actions/upload-artifact@v3
+      with:
+        name: browser-screenshot
+        path: screenshot.png
+
 
     - name: Run Python Script
       run: |
