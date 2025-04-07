@@ -94,6 +94,7 @@ for i, company in enumerate(company_list[last_successful_iteration:], last_succe
     
     finally:
         driver.quit()
-    
+        driver.save_screenshot("screenshot.png")
+
     with open(checkpoint_file, "w") as f:
         f.write(str(i))
